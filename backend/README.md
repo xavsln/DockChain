@@ -31,6 +31,7 @@ Key components include:
 # Main commands
 
 ```shell
+npx hardhat node
 npx hardhat run scripts/deploy.js
 npx hardhat test (note: no test implemented at this stage)
 ```

@@ -202,10 +202,12 @@ const abiBoatRegistryContract = [
 
 // A function that will return an instance of the Smart Contract
 // Address can be updated to interact either with the local Hardhat network (dev purpose)
+// The deployed address on Hardhat dev environment can be seen after deploying on Hardhat `% npx hardhat run scripts/deploy.js`: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 // or the address of the Smart Contract deployed in Goerli Testnet: 0x60022bb86fb92ffbfecffbc96cde3b9888ee889d
 const boatRegistryContract = (provider) => {
   return new ethers.Contract(
-    "0x60022bb86fb92ffbfecffbc96cde3b9888ee889d",
+    // "0x60022bb86fb92ffbfecffbc96cde3b9888ee889d",
+    "0x5FbDB2315678afecb367f032d93F642f64180aa3",
     abiBoatRegistryContract,
     provider
   );
