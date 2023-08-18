@@ -13,6 +13,7 @@ Launch a terminal session, then:
 
 In another terminal window:
 
+`cd backend`
 `npx hardhat run scripts/deploy.js --network localhost`
 
 The Smart Contract should be deployed to 0x5FbDB2315678afecb367f032d93F642f64180aa3

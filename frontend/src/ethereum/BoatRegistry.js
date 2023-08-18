@@ -206,8 +206,8 @@ const abiBoatRegistryContract = [
 // or the address of the Smart Contract deployed in Goerli Testnet: 0x60022bb86fb92ffbfecffbc96cde3b9888ee889d
 const boatRegistryContract = (provider) => {
   return new ethers.Contract(
-    // "0x60022bb86fb92ffbfecffbc96cde3b9888ee889d",
-    "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    // "0x60022bb86fb92ffbfecffbc96cde3b9888ee889d", // For Goerli interaction
+    "0x5FbDB2315678afecb367f032d93F642f64180aa3", // For Hardhat local interaction
     abiBoatRegistryContract,
     provider
   );
