@@ -10,4 +10,5 @@ cache
 artifacts
 
 # Other files
-prjNotes
+prjNotes.md
+.DS_Store
