@@ -32,7 +32,7 @@ Key components include:
 
 ```shell
 npx hardhat run scripts/deploy.js
-npx hardhat test
+npx hardhat test (note: no test implemented at this stage)
 ```
 
 # Deployed contract address
