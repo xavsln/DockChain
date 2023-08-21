@@ -1,16 +1,24 @@
 body {
-  background: url("./images/bg-2.jpg") no-repeat;
+  background: url("./images/bg-3.jpg") no-repeat;
+  background-position: 0px 50px;
   background-color: #070709;
+  background-size: 100%;
+  background-size: 100%;
+
   color: white;
+  /* color: black; */
 }
 
 .title {
   color: white;
+  /* color: black; */
   margin-bottom: 1 rem;
+  backdrop-filter: blur(10px);
 }
 
 .box {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .panel {
@@ -68,6 +76,10 @@ body {
   color: green;
 }
 
+.dAppDescription {
+  backdrop-filter: blur(10px);
+}
+
 li {
   text-align: left;
 }
@@ -78,4 +90,12 @@ li {
 
 .radio-btns {
   text-align: left;
+}
+
+.contractAdressLink {
+  backdrop-filter: blur(10px);
+}
+
+.txResult {
+  background-color: #ffff00;
 }

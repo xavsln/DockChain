@@ -214,12 +214,13 @@ function App() {
         <div className='register-hero-body'>
           <div className='container has-text-centered main-content'>
             <h1 className='title is-1'>
-              Boat Mooring Registration made thanks to Blockchain technology
+              Boat Mooring Registration made simple thanks to Blockchain
+              technology
             </h1>
             <h1 className='title is-3 mb-6'>
               This simple dApp allows boat owners to:
             </h1>
-            <div className='mx-5'>
+            <div className='mx-5 dAppDescription'>
               <h5>
                 <ol>
                   <li className='is-size-4 mb-3'>
@@ -237,16 +238,9 @@ function App() {
             </div>
 
             <br></br>
-            <a
-              href='https://goerli.etherscan.io/address/0x60022bb86fb92ffbfecffbc96cde3b9888ee889d'
-              target='_blank'
-            >
-              Check deployed Smart Contract on Goerli (address:
-              0x60022bb86fb92ffbfecffbc96cde3b9888ee889d)
-            </a>
 
             {/* Display the result of the transaction, success or error */}
-            <div className='mt-5'>
+            <div className='mt-5 txResult'>
               {getRegisteredUsersError && (
                 <div className='withdraw-error'> {getRegisteredUsersError}</div>
               )}
@@ -338,18 +332,6 @@ function App() {
                 </div>
               </div>
 
-              <article className='panel is-grey-darker'>
-                <p className='panel-heading'>Transaction Data</p>
-                <div className='panel-block'>
-                  {/* <p>transaction data</p> */}
-                  <p>
-                    {transactionData
-                      ? `Transaction hash: ${transactionData}`
-                      : "--"}
-                  </p>
-                </div>
-              </article>
-
               {/* Table output */}
 
               <article className='panel is-grey-darker'>
@@ -405,6 +387,33 @@ function App() {
                       ))}
                     </tbody>
                   </table>
+                </div>
+              </article>
+
+              <article className='panel is-grey-darker'>
+                <p className='panel-heading'>Transaction Data</p>
+                <div className='panel-block'>
+                  {/* <p>transaction data</p> */}
+                  <p>
+                    {transactionData
+                      ? `Transaction hash: ${transactionData}`
+                      : "--"}
+                  </p>
+                </div>
+              </article>
+
+              <article className='panel is-grey-darker'>
+                <p className='panel-heading'>Check Smart Contract on Goerli:</p>
+                <div className='panel-block'>
+                  {/* <p>transaction data</p> */}
+                  <a
+                    href='https://goerli.etherscan.io/address/0x60022bb86fb92ffbfecffbc96cde3b9888ee889d'
+                    target='_blank'
+                    className='contractAdressLink'
+                  >
+                    Address on Goerli:
+                    0x60022bb86fb92ffbfecffbc96cde3b9888ee889d
+                  </a>
                 </div>
               </article>
             </div>

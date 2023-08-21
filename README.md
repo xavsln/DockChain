@@ -1,6 +1,6 @@
 # introduction
 
-# Test the dApp locally from Hardhat
+# To use the dApp locally from Hardhat
 
 ## Launch the local blockchain
 
@@ -26,3 +26,7 @@ In another terminal window:
 - `npm start`
 
 This should open Chrome.
+
+# To use the dApp with deployed Smart Contract on Goerli
+
+- Will be done later
