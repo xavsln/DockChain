@@ -158,7 +158,7 @@ function App() {
   // ***************************************************************
   const registerNewBoatHandler = async () => {
     alert(
-      `This will register "${newBoatName}" with national Id: "${newBoatNationalId}" and boat type: "${newBoatType}" `
+      `This will register "${newBoatName}" with national Id: "${newBoatNationalId}" and boat type: "${newBoatType}" (0 for sailboat and 1 for motorboat)`
     );
 
     try {
