@@ -21,11 +21,12 @@ This FullStack dApp includes:
 1. a **backend** part related to the **Smart Contract** development of the project based on **Solidity**
 2. a **frontend / UI** part based on **React** that allows to interact with the deployed Smart Contract (on Goerli or Hardhat local blockchain)
 
-## Main tools / framework used
+## Main tools and framework used
 
 - Hardhat Development Environment
 - Alchemy API
 - React
+- Bulma
 
 # To use the dApp locally from Hardhat
 
