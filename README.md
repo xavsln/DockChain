@@ -18,8 +18,8 @@ At anytime the moored list and wait list are accessible.
 
 This FullStack dApp includes:
 
-1. a **backend** part related to the Smart Contract development of the project based on **Solidity**
-2. a **frontend / UI** part based on **React** that allows to interact with the deployed Smart Contract (on Goerli)
+1. a **backend** part related to the **Smart Contract** development of the project based on **Solidity**
+2. a **frontend / UI** part based on **React** that allows to interact with the deployed Smart Contract (on Goerli or Hardhat local blockchain)
 
 ## Main tools / framework used
 
@@ -58,7 +58,7 @@ This should open Chrome.
 
 # To use the dApp with deployed Smart Contract on Goerli
 
-_Note: you need first to make sure that the address set in BoatRegistry.js is the one where Smart Contract deployed on local Goerli._
+_Note: you need first to make sure that the address set in BoatRegistry.js is the one where Smart Contract deployed on Goerli._
 
 A deployed version of the Smart Contract is already deployed on Goerli Ethereum Testnet at the following address:
 
