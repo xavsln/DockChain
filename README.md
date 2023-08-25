@@ -2,7 +2,7 @@
 
 ---
 
-# introduction
+# Introduction
 
 This **FullStack project** was developed as my **final project** in the frame of the **Alchemy University Ethereum Developer Bootcamp**.
 
@@ -13,6 +13,10 @@ In case a mooring slot is available then the registered boat will be added to th
 Otherwise the boat will be added to the wait list.
 
 At anytime the moored list and wait list are accessible.
+
+## dApp video demo
+
+A video demo can be watched here: https://university.alchemy.com/projects/64e5e9a9b2698500027d915b
 
 ## dApp structure
 
